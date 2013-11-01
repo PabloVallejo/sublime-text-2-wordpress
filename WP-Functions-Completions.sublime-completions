@@ -788,7 +788,7 @@
 	{"trigger": "image_attachment_fields_to_save", "contents": "image_attachment_fields_to_save(${1: ${2:\\$post}, ${3:\\$attachment}} );"},
 	{"trigger": "image_constrain_size_for_editor", "contents": "image_constrain_size_for_editor(${1: ${2:\\$width}, ${3:\\$height}, ${4:\\$size}, ${5:\\$context}} );"},
 	{"trigger": "image_downsize", "contents": "image_downsize(${1: ${2:\\$id}, ${3:\\$size}} );"},
-	{"trigger": "image_get_intermediate_size", "contents": "image_get_intermediate_size(${1: ${2:\\$post_id}, ${3:\\$size}} );"},
+	{"trigger": "image_get_intermediate_size", "contents": "image_get_intermediate_size(${1: ${2:\\$attachment_id}, ${3:\\$size}} );"},
 	{"trigger": "image_hwstring", "contents": "image_hwstring(${1: ${2:\\$width}, ${3:\\$height}} );"},
 	{"trigger": "image_link_input_fields", "contents": "image_link_input_fields(${1: ${2:\\$post}, ${3:\\$url_type}} );"},
 	{"trigger": "image_make_intermediate_size", "contents": "image_make_intermediate_size(${1: ${2:\\$file}, ${3:\\$width}, ${4:\\$height}, ${5:\\$crop}} );"},
